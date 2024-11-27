@@ -1,0 +1,231 @@
+.michaelDziedzicNbwKaz2bleUIcon {
+  position: absolute;
+  top: -20.6px;
+  left: -9.1px;
+  width: 775.2px;
+  height: 484.5px;
+  object-fit: cover;
+}
+.stocksyComp59633081Icon,
+.stocksyCompWatermarked57299Icon {
+  position: absolute;
+  top: 0;
+  left: -58.6px;
+  width: 532.6px;
+  height: 389.4px;
+  object-fit: cover;
+}
+.stocksyCompWatermarked57299Icon {
+  top: -233px;
+  left: -131px;
+  width: 414.9px;
+  height: 622.4px;
+}
+.img {
+  position: absolute;
+  top: 0;
+  left: -200px;
+  border-radius: 8px;
+  background-color: #edf4f7;
+  width: 192px;
+  height: 236px;
+  overflow: hidden;
+
+}
+.stocksyCompWatermarked58494Icon {
+  position: absolute;
+  top: -16px;
+  left: -45px;
+  width: 318px;
+  height: 476px;
+  object-fit: cover;
+}
+.stocksyComp56704921Icon,
+.stocksyComp59633082Icon {
+  position: absolute;
+  top: -16px;
+  left: -85px;
+  width: 437px;
+  height: 319px;
+  object-fit: cover;
+}
+.stocksyComp56704921Icon {
+  top: -42px;
+  left: -212px;
+  width: 570px;
+  height: 400px;
+}
+.img1 {
+  width: 192px;
+  position: relative;
+  border-radius: 8px;
+  background-color: #edf4f7;
+  height: 236px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.stocksyCompWatermarked43199Icon {
+  position: absolute;
+  top: -185px;
+  left: -106px;
+  width: 363px;
+  height: 545px;
+  object-fit: cover;
+}
+.quoteIcon {
+  height: 14px;
+  width: 200px;
+  position: relative;
+}
+.quoteIconContainer {
+  width: 268px;
+  height: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 68px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.laPlateformeGreenscope {
+  margin: 0;
+}
+.laPlateformeGreenscopeContainer {
+  margin: 0;
+  width: 244px;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.testimonialContent {
+  width: 268px;
+  height: 216px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  z-index: 2;
+}
+.logoIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.authorInfo {
+  height: 21px;
+  width: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5px 0 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.philippe {
+  margin: 0;
+  height: 26px;
+  width: 71px;
+  position: relative;
+  font-size: inherit;
+  line-height: 130%;
+  font-weight: 500;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.authorDetails {
+  width: 94px;
+  height: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  z-index: 2;
+}
+.chefProjetEsg {
+  width: 245px;
+  height: 20px;
+  position: relative;
+  font-size: 14px;
+  line-height: 140%;
+  font-family: Inter;
+  color: rgba(214, 224, 211, 0.7);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.horizontalborder,
+.itemArticle {
+  width: 292px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.horizontalborder {
+  height: 98px;
+  border-top: 1px solid rgba(214, 224, 211, 0.4);
+  box-sizing: border-box;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 4px;
+  z-index: 1;
+  font-size: 20px;
+}
+.itemArticle {
+  height: 388px;
+  border-radius: 8px;
+  background-color: #3c4a41;
+  align-items: flex-end;
+  gap: 74px;
+}
+.stocksyComp59452341Icon {
+  position: absolute;
+  top: 0;
+  left: -175px;
+  width: 418px;
+  height: 627px;
+  object-fit: cover;
+}
+.img6 {
+  width: 192px;
+  position: relative;
+  border-radius: 6px;
+  background-color: #edf4f7;
+  height: 236px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.testimonialList {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 388px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.testimonial {
+  width: 100%;
+  height: 388px;
+  position: relative;
+  z-index: 1;
+  text-align: left;
+  font-size: 16px;
+  color: #f4f8ef;
+  font-family: Akronim;
+
+  
+}

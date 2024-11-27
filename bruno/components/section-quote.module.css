@@ -1,0 +1,162 @@
+.companiesUseGreenscope {
+  margin: 0;
+  height: 48px;
+  width: 932.3px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 500;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.companyCount {
+  width: 1075.3px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 144px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.loremIpsumDolor {
+  width: 392px;
+  position: relative;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.arrowsDiagrams221Icon {
+  height: 19.2px;
+  width: 19.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  transform: rotate(-180deg);
+}
+
+.arrowsDiagrams221Wrapper {
+  height: 40px;
+  width: 57.6px;
+  border-radius: 80px;
+  border: 0.8px solid #3c4a41;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10.4px 19.2px;
+  transform: rotate(180deg);
+  transition: background-color 0.3s, border-color 0.3s; /* Ajout d'une transition pour le survol */
+}
+
+/* Changement de couleur au survol des boutons */
+.arrowsDiagrams221Wrapper:hover,
+.arrowsDiagrams221Container:hover {
+  background-color: #909886; /* Couleur de fond lors du survol */
+  border-color: #3c4a41; /* Changer la couleur de la bordure lors du survol */
+}
+
+.arrowsDiagrams221Icon1 {
+  height: 19.2px;
+  width: 19.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  transform: rotate(180deg);
+}
+
+.arrowsDiagrams221Container {
+  height: 40px;
+  width: 57.6px;
+  border-radius: 80px;
+  border: 0.8px solid #3c4a41;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10.4px 19.2px;
+  transition: background-color 0.3s, border-color 0.3s; /* Ajout d'une transition pour le survol */
+}
+
+/* Changement de couleur sur les icônes */
+.arrowsDiagrams221Icon:hover,
+.arrowsDiagrams221Icon1:hover {
+  fill: #3c4a41; /* Changer la couleur de l'icône lors du survol */
+}
+
+.diagramContainer,
+.quoteDiagram {
+  width: 119.2px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.diagramContainer {
+  height: 40px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.quoteDiagram {
+  height: 45px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 5px;
+  box-sizing: border-box;
+}
+
+.quoteContent {
+  height: 60px;
+  width: 991.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 480.4px;
+}
+
+.sectionQuote,
+.testimonialQuote {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.testimonialQuote {
+  width: 1135.6px;
+  height: 60px;
+  flex-direction: row;
+  padding: 0 0 0 144px;
+  font-size: 14px;
+  color: rgba(60, 74, 65, 0.8);
+  font-family: Inter;
+}
+
+.sectionQuote {
+
+  height: 880px;
+  background-color: #fff;
+  border: 1px solid rgba(60, 74, 65, 0.2);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 120px 0;
+  gap: 72px;
+  text-align: left;
+  font-size: 40px;
+  color: #3c4a41;
+  font-family: Akronim;
+
+}

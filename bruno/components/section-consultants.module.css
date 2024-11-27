@@ -1,0 +1,248 @@
+.aSolutionFor {
+  margin: 0;
+  height: 48px;
+  width: 398px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.arrowsDiagrams221Icon {
+  width: 19.2px;
+  position: relative;
+  height: 19.2px;
+  overflow: hidden;
+  flex-shrink: 0;
+  transform: rotate(180deg);
+  /* Ne pas inverser la direction */
+}
+
+.arrowsDiagrams221Wrapper {
+  height: 40px;
+  width: 57.6px;
+  border-radius: 80px;
+  border: 0.8px solid #f4f8ef;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10.4px 19.2px;
+  transform: rotate(180deg);
+}
+
+.arrowsDiagrams221Icon1 {
+  height: 19.2px;
+  width: 19.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  transform: rotate(180deg);
+  /* Inverser la direction */
+}
+
+.arrows,
+.arrowsDiagrams221Container {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.arrowsDiagrams221Container {
+  width: 57.6px;
+  border-radius: 80px;
+  border: 0.8px solid #f4f8ef;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  padding: 10.4px 19.2px;
+}
+
+.arrows {
+  width: 119.2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.arrowsWrapper {
+  height: 48px;
+  width: 119.2px;
+  flex-direction: column;
+  padding: 8px 0 0;
+  box-sizing: border-box;
+
+}
+
+.aSolutionForEveryoneParent,
+.arrowsWrapper,
+.sectionConsultants {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+}
+
+.aSolutionForEveryoneParent {
+  height: 48px;
+  flex-direction: row;
+  gap: 676px;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionConsultants {
+
+  height: 893px;
+  background-color: #3c4a41;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 120px 0 148px 124px;
+  box-sizing: border-box;
+  gap: 72px;
+  text-align: left;
+  font-size: 40px;
+  color: #f4f8ef;
+  font-family: Akronim;
+
+}
+
+/* Ajouter un changement de couleur au survol des boutons */
+.arrowsDiagrams221Wrapper:hover,
+.arrowsDiagrams221Container:hover {
+  background-color: #909886;
+  /* Couleur de fond lors du survol */
+  border-color: #3c4a41;
+  /* Changer la couleur de la bordure lors du survol */
+}
+
+/* Ajouter un changement de couleur sur les icônes */
+.arrowsDiagrams221Icon:hover,
+.arrowsDiagrams221Icon1:hover {
+  fill: #3c4a41;
+  /* Changer la couleur de l'icône lors du survol */
+}
+
+.carouselImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.carouselImage {
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
+
+
+.componentsPictureInfo {
+
+  width: 100%;
+  display: flex;
+
+}
+
+
+.componentsPictureInfo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+
+}
+
+.slideContainer {
+  position: absolute;
+  transition: all 0.5s ease;
+
+}
+
+.centerSlide {
+  left: 0;
+
+  transform: translateX(0);
+  z-index: 3;
+
+}
+
+.centerSlide {
+  left: 0;
+
+  transform: translateX(0);
+  z-index: 3;
+
+}
+
+
+
+.centerSlide div div div div .stocksyComp48607811Icon {
+  animation: rotating 1s;
+  -webkit-animation: rotating 1s;
+}
+
+.centerSlide div div div div div {
+  animation: rotating 1s;
+  -webkit-animation: rotating 1s;
+
+}
+
+.centerSlide>div>div>div:first-child {
+  animation: slideClipPath 1s;
+
+}
+.centerSlide>div>div>div:first-child {
+  clip-path: polygon(0 0, 100% 20px, 100% 100%, 0 100%);
+
+}
+
+
+
+.rightSlide {
+  left: 0;
+  transform: translateX(100%);
+  z-index: 2;
+}
+
+.leftSlide {
+  left: 0;
+  transform: translateX(-100%);
+  z-index: 2;
+}
+
+.hiddenSlide {
+  transform: translateX(200%);
+  z-index: 1;
+}
+
+@keyframes slideClipPath {
+  0% {
+    clip-path: polygon(0 0, 100% 0px, 100% 100%, 0 100%);
+  }
+
+  100% {
+    clip-path: polygon(0 0, 100% 20px, 100% 100%, 0 100%);
+  }
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,134 @@
+.coreTrafficLightsBigSur {
+  align-self: stretch;
+  height: 13.5px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.coreTrafficLightsBigSurWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9px 0 0;
+}
+.coreSafariBigSurTool1 {
+  height: 31.5px;
+  width: 37.1px;
+  position: relative;
+  border-radius: 6.8px;
+}
+.icon {
+  position: absolute;
+  top: 7.6px;
+  left: 14px;
+  width: 9.1px;
+  height: 16.2px;
+}
+.coreSafariBigSurTool3 {
+  height: 31.5px;
+  width: 37.1px;
+  position: relative;
+  border-radius: 6.8px;
+  z-index: 1;
+}
+.coreSafariBigSurToolGroup,
+.toolbarGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.toolbarGroup {
+  overflow: hidden;
+}
+.coreSafariBigSurToolGroup {
+  gap: 10.2px;
+}
+.frameParent {
+  gap: 21.4px;
+}
+.coreSafariBigSurToolContainer,
+.frameParent,
+.toolbarItem {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.coreSafariBigSurToolContainer {
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 0 84px 0 0;
+  box-sizing: border-box;
+  gap: 10.2px;
+  max-width: calc(100% - 691px);
+}
+.toolbarItem {
+  gap: 9px;
+}
+.div {
+  position: absolute;
+  top: 3.2px;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+}
+.spacer {
+  height: 31.5px;
+  width: 37.1px;
+  position: relative;
+  border-radius: 6.8px;
+  flex-shrink: 0;
+  display: none;
+  text-align: center;
+  font-size: 19.1px;
+  color: #737373;
+}
+.coreSafariBigSurTool,
+.coreSafariBigSurToolParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.coreSafariBigSurTool {
+  box-shadow: 0-0.6px 0 rgba(0, 0, 0, 0.05) inset, 0 0.6px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 11.25px 11.25px 0 0;
+  background-color: #fff;
+  overflow-x: auto;
+  flex-direction: row;
+  padding: 13.5px 13px 15px 23px;
+  gap: 156.9px;
+}
+.coreSafariBigSurToolParent {
+  flex-direction: column;
+  padding: 0 0 40px;
+  text-align: left;
+  font-size: 14.6px;
+  color: #4c4c4c;
+  font-family: Inter;
+}
+@media screen and (max-width: 800px) {
+  .coreSafariBigSurToolContainer {
+    padding-right: 42px;
+    box-sizing: border-box;
+  }
+  .coreSafariBigSurTool {
+    gap: 78px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .coreSafariBigSurToolContainer {
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .coreSafariBigSurTool {
+    gap: 39px;
+  }
+}

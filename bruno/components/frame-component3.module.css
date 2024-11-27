@@ -1,0 +1,172 @@
+.stocksyComp48607811Icon {
+  position: absolute;
+  top: -140px;
+  left: -250px;
+  width: 930px;
+  height: 790px;
+  object-fit: contain;
+}
+.sectionChild {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  width: 392px;
+  height: 16px;
+}
+.section {
+  width: 392px;
+  position: relative;
+  border-radius: 8px;
+  background-color: #f4f8ef;
+  height: 500px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.companyItems {
+  height: 505px;
+  width: 392px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 5px;
+  box-sizing: border-box;
+}
+.logoIcon {
+  width: 32px;
+  height: 32.1px;
+  position: relative;
+}
+.logoWrapper {
+  height: 35.1px;
+  width: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 0 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.forCompanies {
+  margin: 0;
+  height: 38px;
+  width: 301px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameGroup {
+  width: 352px;
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.elevateYourEsg {
+  margin: 0;
+}
+.elevateYourEsgContainer1 {
+  width: 100%;
+}
+.elevateYourEsgContainer {
+  width: 352px;
+  position: relative;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Inter;
+  color: rgba(214, 224, 211, 0.7);
+  display: flex;
+  align-items: flex-end;
+}
+.companyList,
+.frameParent {
+  height: 489px;
+  width: 352px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 355px;
+}
+.companyList {
+  height: 505px;
+  width: 792px;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 48px;
+  flex-shrink: 0;
+}
+.gettyimages15330185391Icon,
+.stocksyComp48607811Icon1 {
+  position: absolute;
+  margin: 0 !important;
+  object-fit: contain;
+}
+.stocksyComp48607811Icon1 {
+  width: 1017px;
+  height: 679px;
+  top: -133px;
+  right: -477px;
+  z-index: 0;
+}
+.gettyimages15330185391Icon {
+  width: 1593px;
+  height: 874px;
+  right: -903px;
+  bottom: -278px;
+  z-index: 1;
+}
+.frameContainer,
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.section1 {
+  width: 392px;
+  height: 500px;
+  border-radius: 8px;
+  background-color: #f4f8ef;
+  overflow: hidden;
+  flex-shrink: 0;
+  position: relative;
+}
+.frameContainer {
+  height: 489px;
+  width: 352px;
+  gap: 331px;
+}
+.companyList1,
+.companyListParent {
+  height: 505px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.companyList1 {
+  width: 792px;
+  align-items: flex-end;
+  gap: 48px;
+  flex-shrink: 0;
+  color: #fff;
+}
+.companyListParent {
+
+  align-items: flex-start;
+  gap: 8px;
+  z-index: 1;
+  text-align: left;
+  font-size: 32px;
+  color: #f4f8ef;
+  font-family: Akronim;
+}
+

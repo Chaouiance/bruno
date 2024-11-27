@@ -1,0 +1,119 @@
+.esgDataSolution {
+  margin: 0;
+  height: 38px;
+  width: 329px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.title {
+  width: 328px;
+  height: 163px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 125px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.automaticallyCollectData {
+  height: 126px;
+  width: 364px;
+  position: relative;
+  line-height: 130%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.dataItem {
+  width: 364px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dataItem,
+.list {
+  height: 126px;
+}
+.list,
+.paragraphhorizontalborder,
+.sectionInner,
+.titleParent {
+  width: 364px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.paragraphhorizontalborder {
+  height: 166px;
+  padding: 40px 0 0;
+  box-sizing: border-box;
+  z-index: 1;
+  font-size: 16px;
+  color: rgba(69, 56, 72, 0.7);
+  font-family: Inter;
+}
+.sectionInner,
+.titleParent {
+  height: 428.6px;
+}
+.titleParent {
+  position: relative;
+  gap: 99.6px;
+  flex-shrink: 0;
+}
+.sectionInner {
+  z-index: 2;
+}
+.visualbrochureZa064l1Icon {
+  width: 492px;
+  height: 380px;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.img,
+.section {
+  display: flex;
+  justify-content: flex-start;
+}
+.img {
+  height: 429px;
+  width: 492px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 33px;
+  z-index: 1;
+}
+.section {
+  width: 1192px;
+  height: 573px;
+  border-radius: 8px;
+  overflow-y: auto;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 72px;
+  box-sizing: border-box;
+  gap: 192px;
+  text-align: left;
+  font-size: 32px;
+  color: #453848;
+  font-family: Akronim;
+}
+
+.esgDataSolution,
+.lesClsMajeuresContainer {
+  position: relative;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+

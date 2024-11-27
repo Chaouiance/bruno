@@ -1,0 +1,99 @@
+.notreQuipeDexperts {
+  margin: 0;
+}
+.notreQuipeDexpertsContainer {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 130%;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 104%;
+}
+.demoButtonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 11.5px;
+  margin-left: -231px;
+}
+.conversionContent {
+  width: 931.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 28px 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.firstLink {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  mix-blend-mode: normal;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.conversionLinkContainer,
+.sectionConversion {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.conversionLinkContainer {
+  width: 392px;
+  flex-direction: column;
+  padding: 11.5px 0 0;
+  font-size: 16px;
+  color: rgba(60, 74, 65, 0.7);
+  font-family: Inter;
+}
+.sectionConversion {
+  align-self: stretch;
+  background-color: #fff;
+  border-top: 1px solid rgba(60, 74, 65, 0.2);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 118px 223px 120px;
+  gap: 593px;
+  z-index: 4;
+  text-align: left;
+  font-size: 48px;
+  color: #3c4a41;
+  font-family: Akronim;
+}
+@media screen and (max-width: 1350px) {
+  .sectionConversion {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .notreQuipeDexpertsContainer {
+    font-size: 38px;
+    line-height: 50px;
+  }
+  .sectionConversion {
+    gap: 296px;
+    padding-left: 111px;
+    padding-right: 111px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .notreQuipeDexpertsContainer {
+    font-size: 29px;
+    line-height: 37px;
+  }
+  .sectionConversion {
+    gap: 148px;
+    padding: 77px 20px 78px;
+    box-sizing: border-box;
+  }
+}

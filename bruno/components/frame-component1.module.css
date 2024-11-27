@@ -1,0 +1,145 @@
+.allYourEsg {
+  margin: 0;
+}
+.lesClsMajeuresContainer1 {
+  width: 100%;
+}
+.esgDataSolution,
+.lesClsMajeuresContainer {
+  position: relative;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.lesClsMajeuresContainer {
+  margin: 0;
+  height: 96px;
+  width: 520px;
+  font-size: inherit;
+  line-height: 120%;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.esgDataSolution {
+  height: 21px;
+  width: 140px;
+  line-height: 130%;
+  display: inline-block;
+}
+.callToAction {
+  height: 37px;
+  width: 163px;
+  border-radius: 100px;
+  background-color: rgba(60, 74, 65, 0.1);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 12px;
+  box-sizing: border-box;
+}
+.carbonAssessment {
+  height: 21px;
+  width: 156px;
+  position: relative;
+  line-height: 130%;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.callToAction1 {
+  height: 37px;
+  width: 171px;
+  border-radius: 100px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.csrd {
+  height: 21px;
+  width: 45px;
+  position: relative;
+  line-height: 130%;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.callToAction2 {
+  height: 37px;
+  width: 60px;
+  border-radius: 100px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.impactAnalysis {
+  height: 21px;
+  width: 232px;
+  position: relative;
+  line-height: 130%;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.callToAction3 {
+  height: 37px;
+  width: 247px;
+  border-radius: 100px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 8px;
+}
+.callToAction3,
+.callToActionParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.callToActionParent {
+  margin-left: -48px;
+  width: 723px;
+  height: 55px;
+  border-radius: 100px;
+  background-color: #fff;
+  border: 1px solid rgba(60, 74, 65, 0.2);
+  flex-direction: row;
+  padding: 8px;
+  gap: 20px;
+  flex-shrink: 0;
+}
+.frameWrapper {
+  height: 53px;
+  width: 673px;
+  flex-direction: column;
+  padding: 0;
+  font-size: 16px;
+  font-family: Inter;
+}
+.lesClsMajeuresDeLaPlatefParent {
+  width: 1192px;
+  height: 96px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 40px;
+  color: #3c4a41;
+  font-family: Akronim;
+
+}

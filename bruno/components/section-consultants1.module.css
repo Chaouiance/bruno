@@ -1,0 +1,45 @@
+.designedWithThe {
+  margin: 50px 0;
+  width: 592px;
+  position: relative;
+  font-size: inherit;
+  line-height: 130%;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+
+}
+.sectionConsultants,
+.technologyFeatures {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.technologyFeatures {
+  width: 1192px;
+  height: 330px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 8px 2px;
+  font-size: 32px;
+}
+.sectionConsultants {
+
+  height: 766px;
+  background-color: #fff;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 120px 124px;
+  box-sizing: border-box;
+  gap: 72px;
+  text-align: left;
+  font-size: 48px;
+  color: #3c4a41;
+  font-family: Akronim;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

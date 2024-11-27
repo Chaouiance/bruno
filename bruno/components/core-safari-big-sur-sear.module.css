@@ -1,0 +1,65 @@
+.lockIcon {
+  width: 8.8px;
+  position: relative;
+  height: 12.9px;
+}
+.lockWrapper {
+  height: 15.4px;
+  width: 8.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 2.5px;
+  box-sizing: border-box;
+}
+.frameParent,
+.text {
+  height: 18px;
+  flex-shrink: 0;
+  display: flex;
+}
+.text {
+  width: 116px;
+  position: relative;
+  align-items: center;
+}
+.frameParent {
+  width: 130.6px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 6.7px;
+}
+.lockIcon1 {
+  width: 11.6px;
+  height: 14.2px;
+  position: relative;
+}
+.coreSafariBigSurSear,
+.lockContainer {
+  height: 16px;
+  width: 11.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 1.8px;
+  box-sizing: border-box;
+}
+.coreSafariBigSurSear {
+  height: 31.5px;
+  width: 580.5px;
+  border-radius: 6.8px;
+  background-color: rgba(0, 0, 0, 0.05);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 7px 6.7px 6.5px 224.7px;
+  gap: 206.9px;
+  text-align: left;
+  font-size: 14.6px;
+  color: #4c4c4c;
+  font-family: Inter;
+}

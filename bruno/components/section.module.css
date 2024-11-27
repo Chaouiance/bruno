@@ -1,0 +1,76 @@
+.icon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  z-index: 2;
+}
+.featureDetails {
+  height: 245px;
+  width: 104px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 181px;
+  z-index: 2;
+}
+.dataIntegration,
+.loremIpsumDolor {
+  position: relative;
+  display: inline-block;
+}
+.dataIntegration {
+  margin: 0;
+  width: 223px;
+  height: 38px;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 500;
+  font-family: inherit;
+  flex-shrink: 0;
+}
+.loremIpsumDolor {
+  width: 252px;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Inter;
+}
+.featureInfo,
+.infoDetails,
+.section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.infoDetails {
+  width: 252px;
+  height: 253px;
+  flex-direction: column;
+  gap: 119px;
+}
+.featureInfo,
+.section {
+  box-sizing: border-box;
+}
+.featureInfo {
+  height: 258px;
+  width: 252px;
+  flex-direction: column;
+  padding: 5px 0 0;
+  z-index: 1;
+}
+.section {
+  height: 330px;
+  width: 592px;
+  border-radius: 8px;
+  background-color: #f4f8ef;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 40px 40px 32px;
+  gap: 156px;
+  text-align: left;
+  font-size: 32px;
+  color: #3c4a41;
+  font-family: Akronim;
+}

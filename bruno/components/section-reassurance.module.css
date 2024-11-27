@@ -1,0 +1,34 @@
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  display: flex;
+  gap: 132.5px; /* L'espacement entre les logos */
+  animation: scroll 20s linear infinite; /* Animation fluide */
+  will-change: transform; /* Optimisation des performances */
+}
+
+
+
+.sectionReassurance {
+  overflow: hidden; /* Cache le débordement */
+  white-space: nowrap; /* Assure que tout reste sur une seule ligne */
+}
+
+@media screen and (max-width: 800px) {
+  .logos {
+    gap: 66px; /* Réduction de l'espace entre logos */
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .logos {
+    gap: 33px;
+  }
+}

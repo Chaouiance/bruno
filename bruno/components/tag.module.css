@@ -1,0 +1,29 @@
+.engagement,
+.tag {
+  display: flex;
+  align-items: center;
+}
+.engagement {
+  height: 9px;
+  position: relative;
+  line-height: 120%;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.tag {
+  height: 25px;
+  margin: 0 !important;
+  position: absolute;
+  top: 90px;
+  left: 0;
+  border-radius: 133.3px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 8px;
+  box-sizing: border-box;
+  z-index: 2;
+  text-align: left;
+  font-size: 12px;
+  color: #fff;
+  font-family: Akronim;
+}
