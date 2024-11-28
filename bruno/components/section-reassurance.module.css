@@ -17,8 +17,8 @@
 
 
 .sectionReassurance {
-  overflow: hidden; /* Cache le débordement */
-  white-space: nowrap; /* Assure que tout reste sur une seule ligne */
+  overflow: hidden; 
+  white-space: nowrap; 
 }
 
 @media screen and (max-width: 800px) {

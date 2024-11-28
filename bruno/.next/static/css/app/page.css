@@ -521,9 +521,9 @@
   \***********************************************************************************************************************************************************************************************************************************************************************/
 .c-t-a_demanderUneDmo__u1Epi {
   height: 11px;
-  width: 70px;
+ 
   position: relative;
-  font-size: 13px;
+ 
   line-height: 120%;
   font-weight: 500;
   font-family: Akronim;
@@ -825,15 +825,22 @@
   width: 1191.7px;
   padding: 0 0 0 1018.7px;
   gap: 356.4px;
+  position: relative;
+  overflow: hidden;
+  position: absolute;
+  
+  
 }
 .Header_header1___noBY {
   width: 1440px;
-  height: 88px;
-  padding: 24px 124px;
+  height: 109px;
+  padding: 26px 47px;
+  
   text-align: right;
   font-size: 14px;
   color: #3c4a41;
   font-family: Akronim;
+  
 }
 
 /*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -1325,7 +1332,7 @@
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: column;
-  padding: 120px 0 148px 124px;
+  padding: 120px 0 148px 36px;
   box-sizing: border-box;
   gap: 72px;
   text-align: left;
@@ -1492,8 +1499,8 @@
 
 
 .section-reassurance_sectionReassurance__IsQqs {
-  overflow: hidden; /* Cache le débordement */
-  white-space: nowrap; /* Assure que tout reste sur une seule ligne */
+  overflow: hidden; 
+  white-space: nowrap; 
 }
 
 @media screen and (max-width: 800px) {
@@ -1544,19 +1551,21 @@
   max-width: 100%;
 }
 .section-conversion_firstLink__HnAsW {
-  align-self: stretch;
-  position: relative;
-  line-height: 150%;
-  mix-blend-mode: normal;
-  flex-shrink: 0;
-  white-space: nowrap;
+ 
+
+top: 143px;
+left: 824px;
+
+border-radius: 8px 0px 0px 0px;
+
+
 }
 .section-conversion_conversionLinkContainer__OEkG7,
 .section-conversion_sectionConversion__oS7nn {
   box-sizing: border-box;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: self-end;
+  justify-content: right;
   max-width: 100%;
 }
 .section-conversion_conversionLinkContainer__OEkG7 {
@@ -1574,7 +1583,7 @@
   overflow: hidden;
   flex-direction: row;
   padding: 118px 223px 120px;
-  gap: 593px;
+  gap: 0px;
   z-index: 4;
   text-align: left;
   font-size: 48px;

@@ -27,8 +27,7 @@ const SectionConversion = ({ className = "" }) => {
       </div>
       <div className={styles.conversionLinkContainer}>
         <div className={styles.firstLink}>
-          Nos experts vous accompagnent sur toute la verticale ESG/RSE de votre
-          fonds d'investissement ou de votre entreprise : 
+          
         </div>
       </div>
     </section>

@@ -239,13 +239,20 @@
   width: 1191.7px;
   padding: 0 0 0 1018.7px;
   gap: 356.4px;
+  position: relative;
+  overflow: hidden;
+  position: absolute;
+  
+  
 }
 .header1 {
   width: 1440px;
-  height: 88px;
-  padding: 24px 124px;
+  height: 109px;
+  padding: 26px 47px;
+  
   text-align: right;
   font-size: 14px;
   color: #3c4a41;
   font-family: Akronim;
+  
 }

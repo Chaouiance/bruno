@@ -32,19 +32,21 @@
   max-width: 100%;
 }
 .firstLink {
-  align-self: stretch;
-  position: relative;
-  line-height: 150%;
-  mix-blend-mode: normal;
-  flex-shrink: 0;
-  white-space: nowrap;
+ 
+
+top: 143px;
+left: 824px;
+
+border-radius: 8px 0px 0px 0px;
+
+
 }
 .conversionLinkContainer,
 .sectionConversion {
   box-sizing: border-box;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: self-end;
+  justify-content: right;
   max-width: 100%;
 }
 .conversionLinkContainer {
@@ -62,7 +64,7 @@
   overflow: hidden;
   flex-direction: row;
   padding: 118px 223px 120px;
-  gap: 593px;
+  gap: 0px;
   z-index: 4;
   text-align: left;
   font-size: 48px;
